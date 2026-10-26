@@ -1,0 +1,4 @@
+# junon_legenda.py: dependências Python (todas com licença permissiva)
+faster-whisper==1.2.1     # MIT. Puxa: ctranslate2 (MIT), tokenizers (Apache-2.0), huggingface_hub (Apache-2.0), onnxruntime (MIT), av/PyAV (BSD-3), tqdm (MIT/MPL)
+numpy>=1.26               # BSD-3
+# Fora do pip: ffmpeg + ffprobe no PATH (com libass e libx264, ex.: build "essentials" do gyan.dev). Licença LGPL/GPL, usado como programa externo.
